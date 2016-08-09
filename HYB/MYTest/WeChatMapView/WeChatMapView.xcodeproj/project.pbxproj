@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		265B33981D518CD2001C58D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 265B33971D518CD2001C58D7 /* main.m */; };
+		265B339B1D518CD2001C58D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 265B339A1D518CD2001C58D7 /* AppDelegate.m */; };
+		265B339E1D518CD2001C58D7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 265B339D1D518CD2001C58D7 /* ViewController.m */; };
+		265B33A11D518CD2001C58D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 265B339F1D518CD2001C58D7 /* Main.storyboard */; };
+		265B33A31D518CD2001C58D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 265B33A21D518CD2001C58D7 /* Assets.xcassets */; };
+		265B33A61D518CD2001C58D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 265B33A41D518CD2001C58D7 /* LaunchScreen.storyboard */; };
+		2D6946231399FB929BD3994B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76FEBBB341986D52098AC665 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		265B33931D518CD2001C58D7 /* WeChatMapView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeChatMapView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		265B33971D518CD2001C58D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		265B33991D518CD2001C58D7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		265B339A1D518CD2001C58D7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		265B339C1D518CD2001C58D7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		265B339D1D518CD2001C58D7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		265B33A01D518CD2001C58D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		265B33A21D518CD2001C58D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		265B33A51D518CD2001C58D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		265B33A71D518CD2001C58D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		465A790B1B390E0C438B5FA9 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		719D2C8D61F8C2E30E39718E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		76FEBBB341986D52098AC665 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		265B33901D518CD2001C58D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D6946231399FB929BD3994B /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0732A576015080C069484541 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				719D2C8D61F8C2E30E39718E /* Pods.debug.xcconfig */,
+				465A790B1B390E0C438B5FA9 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		14E7FCB06E3988CD777847ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76FEBBB341986D52098AC665 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		265B338A1D518CD2001C58D7 = {
+			isa = PBXGroup;
+			children = (
+				265B33951D518CD2001C58D7 /* WeChatMapView */,
+				265B33941D518CD2001C58D7 /* Products */,
+				0732A576015080C069484541 /* Pods */,
+				14E7FCB06E3988CD777847ED /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		265B33941D518CD2001C58D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				265B33931D518CD2001C58D7 /* WeChatMapView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		265B33951D518CD2001C58D7 /* WeChatMapView */ = {
+			isa = PBXGroup;
+			children = (
+				265B33991D518CD2001C58D7 /* AppDelegate.h */,
+				265B339A1D518CD2001C58D7 /* AppDelegate.m */,
+				265B339C1D518CD2001C58D7 /* ViewController.h */,
+				265B339D1D518CD2001C58D7 /* ViewController.m */,
+				265B339F1D518CD2001C58D7 /* Main.storyboard */,
+				265B33A21D518CD2001C58D7 /* Assets.xcassets */,
+				265B33A41D518CD2001C58D7 /* LaunchScreen.storyboard */,
+				265B33A71D518CD2001C58D7 /* Info.plist */,
+				265B33961D518CD2001C58D7 /* Supporting Files */,
+			);
+			path = WeChatMapView;
+			sourceTree = "<group>";
+		};
+		265B33961D518CD2001C58D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				265B33971D518CD2001C58D7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		265B33921D518CD2001C58D7 /* WeChatMapView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 265B33AA1D518CD2001C58D7 /* Build configuration list for PBXNativeTarget "WeChatMapView" */;
+			buildPhases = (
+				9CFA7068221AF9D9C1861BC7 /* Check Pods Manifest.lock */,
+				265B338F1D518CD2001C58D7 /* Sources */,
+				265B33901D518CD2001C58D7 /* Frameworks */,
+				265B33911D518CD2001C58D7 /* Resources */,
+				6E0AB23E19C594DE49377151 /* Embed Pods Frameworks */,
+				E6AFA6FEFFD55EFEF9116C1B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeChatMapView;
+			productName = WeChatMapView;
+			productReference = 265B33931D518CD2001C58D7 /* WeChatMapView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		265B338B1D518CD2001C58D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = chenzhongsong;
+				TargetAttributes = {
+					265B33921D518CD2001C58D7 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 265B338E1D518CD2001C58D7 /* Build configuration list for PBXProject "WeChatMapView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 265B338A1D518CD2001C58D7;
+			productRefGroup = 265B33941D518CD2001C58D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				265B33921D518CD2001C58D7 /* WeChatMapView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		265B33911D518CD2001C58D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				265B33A61D518CD2001C58D7 /* LaunchScreen.storyboard in Resources */,
+				265B33A31D518CD2001C58D7 /* Assets.xcassets in Resources */,
+				265B33A11D518CD2001C58D7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6E0AB23E19C594DE49377151 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CFA7068221AF9D9C1861BC7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E6AFA6FEFFD55EFEF9116C1B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		265B338F1D518CD2001C58D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				265B339E1D518CD2001C58D7 /* ViewController.m in Sources */,
+				265B339B1D518CD2001C58D7 /* AppDelegate.m in Sources */,
+				265B33981D518CD2001C58D7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		265B339F1D518CD2001C58D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				265B33A01D518CD2001C58D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		265B33A41D518CD2001C58D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				265B33A51D518CD2001C58D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		265B33A81D518CD2001C58D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		265B33A91D518CD2001C58D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		265B33AB1D518CD2001C58D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 719D2C8D61F8C2E30E39718E /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WeChatMapView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eliteall.com.WeChatMapView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		265B33AC1D518CD2001C58D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 465A790B1B390E0C438B5FA9 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WeChatMapView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eliteall.com.WeChatMapView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		265B338E1D518CD2001C58D7 /* Build configuration list for PBXProject "WeChatMapView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				265B33A81D518CD2001C58D7 /* Debug */,
+				265B33A91D518CD2001C58D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		265B33AA1D518CD2001C58D7 /* Build configuration list for PBXNativeTarget "WeChatMapView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				265B33AB1D518CD2001C58D7 /* Debug */,
+				265B33AC1D518CD2001C58D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 265B338B1D518CD2001C58D7 /* Project object */;
+}
