@@ -23,7 +23,7 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mCP-w6-uuc">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="203"/>
                                         <color key="backgroundColor" red="1" green="0.35546599550000002" blue="0.33553066939999998" alpha="1" colorSpace="calibratedRGB"/>
-                                        <mutableString key="text">本界面是学习如何使用StoryBoard上使用UIScrollView来完成自动布局。由于scrollview与普通的UIView是不一样的。因此我们这里要让这个Lable自动布局，且与ScrollView的左、右两边对齐，上为0，内容自动增长。这里的约束添加方式为：上、左约束基于父视图scrollview，值为0；右约束基于self.view，值为0，因为scrollview的右边是无边际的，只能参考固定的self.view。当然也可以使用左、和设置宽来确定右边。需要注意：不要设置margins，否则会有16像素的间隔。如果用margins，就统一使用，否则全不用。</mutableString>
+                                        <string key="text">本界面是学习如何使用StoryBoard上使用UIScrollView来完成自动布局。由于scrollview与普通的UIView是不一样的。因此我们这里要让这个Lable自动布局，且与ScrollView的左、右两边对齐，上为0，内容自动增长。这里的约束添加方式为：上、左约束基于父视图scrollview，值为0；右约束基于self.view，值为0，因为scrollview的右边是无边际的，只能参考固定的self.view。当然也可以使用左、和设置宽来确定右边。需要注意：不要设置margins，否则会有16像素的间隔。如果用margins，就统一使用，否则全不用。</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -103,7 +103,7 @@
         <!--平分布局-->
         <scene sceneID="0xt-yR-cZG">
             <objects>
-                <viewController id="HSG-AP-QTr" sceneMemberID="viewController">
+                <viewController id="HSG-AP-QTr" customClass="AvgLayoutViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Z6o-Fw-hK3"/>
                         <viewControllerLayoutGuide type="bottom" id="RRk-cO-Kge"/>
@@ -128,7 +128,10 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bUL-54-izz">
                                 <rect key="frame" x="217" y="84" width="189" height="79.5"/>
                                 <color key="backgroundColor" red="0.30892510649999999" green="1" blue="0.27888142500000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Button2"/>
+                                <state key="normal" title="mas基础布局"/>
+                                <connections>
+                                    <action selector="masBaseUse:" destination="HSG-AP-QTr" eventType="touchUpInside" id="5k9-Q9-xBO"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L97-Dc-rEZ">
                                 <rect key="frame" x="8" y="194" width="119.5" height="80"/>
@@ -136,22 +139,38 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="80" id="EUI-tV-AKg"/>
                                 </constraints>
-                                <state key="normal" title="Button3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <state key="normal" title="mas动画更新"/>
+                                <connections>
+                                    <action selector="masBaseLayout:" destination="HSG-AP-QTr" eventType="touchUpInside" id="Kql-h5-nNt"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jdU-FC-Y2n">
                                 <rect key="frame" x="147" y="194" width="119" height="80"/>
                                 <color key="backgroundColor" red="1" green="0.35546599550000002" blue="0.33553066939999998" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Button4"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="mas remake更新"/>
+                                <connections>
+                                    <action selector="masRemakeLayout:" destination="HSG-AP-QTr" eventType="touchUpInside" id="MEc-9s-iJM"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vFP-w0-HEJ">
                                 <rect key="frame" x="286" y="194" width="120" height="80"/>
                                 <color key="backgroundColor" red="1" green="0.35546599550000002" blue="0.33553066939999998" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Button5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="mas整体动画更新"/>
+                                <connections>
+                                    <action selector="masEntiretyAnimateLayout:" destination="HSG-AP-QTr" eventType="touchUpInside" id="Pb3-gj-zqk"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OoW-jk-Hbh">
                                 <rect key="frame" x="268" y="334" width="126" height="100"/>
                                 <color key="backgroundColor" red="1" green="0.35546599550000002" blue="0.33553066939999998" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Button6"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="复合约束"/>
+                                <connections>
+                                    <action selector="masCompositeLayout:" destination="HSG-AP-QTr" eventType="touchUpInside" id="37a-8f-aMg"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="微信公众号.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="0kz-S6-Bln">
                                 <rect key="frame" x="8" y="314" width="250" height="250"/>

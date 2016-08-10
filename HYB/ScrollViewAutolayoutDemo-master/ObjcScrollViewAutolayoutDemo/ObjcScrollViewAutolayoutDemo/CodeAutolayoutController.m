@@ -71,7 +71,7 @@ codeLabel.text = @"本标签的约束添加方式为：使左、右与上面的�
   avgLabel1.textColor = [UIColor whiteColor];
   avgLabel1.textAlignment = NSTextAlignmentCenter;
   [scrollView addSubview:avgLabel1];
-avgLabel1.text = @"本控件的约束添加方式为：使left与父视图的left相距10像素，使top=上面的图片的bottom再加40像素，使right=右边这个标签的left再减去20个像素（间隔），使height=80。";
+    avgLabel1.text = @"本控件的约束添加方式为：使left与父视图的left相距10像素，使top=上面的图片的bottom再加40像素，使right=右边这个标签的left再减去20个像素（间隔），使height=80。";
   
   UILabel *avgLabel2 = [[UILabel alloc] init];
   avgLabel2.backgroundColor = [UIColor redColor];

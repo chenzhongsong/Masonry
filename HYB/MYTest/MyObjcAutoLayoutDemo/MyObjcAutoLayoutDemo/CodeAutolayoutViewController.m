@@ -71,6 +71,10 @@
         make.top.mas_equalTo(codeLabel.mas_bottom).offset(20);
         make.width.height.mas_equalTo(250);
     }];
+    codeImgView.userInteractionEnabled = YES;
+    UITapGestureRecognizer *tap = [UITapGestureRecognizer new];
+    [tap addTarget:self action:@selector(tapCoddeImgView:)];
+    [codeImgView addGestureRecognizer:tap];
     
     
     UILabel *avgLabel1 = [[UILabel alloc] init];
@@ -96,7 +100,7 @@
         make.right.mas_equalTo(avgLabel2.mas_left).offset(-20);
     }];
     [avgLabel2 mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.right.mas_equalTo(-10);
+        make.right.mas_equalTo(weakSelf.view).offset(-10);
         make.top.width.mas_equalTo(avgLabel1);
     }];
     
@@ -110,6 +114,10 @@
         make.bottom.mas_greaterThanOrEqualTo(avgLabel1.mas_bottom).offset(40);
         make.bottom.mas_greaterThanOrEqualTo(avgLabel2.mas_bottom).offset(40);
     }];
+}
+
+- (void)tapCoddeImgView:(UIGestureRecognizer *)tap {
+    [self.navigationController pushViewController:[NSClassFromString(@"MasonryBaseViewController") new] animated:YES];
 }
 
 /*
