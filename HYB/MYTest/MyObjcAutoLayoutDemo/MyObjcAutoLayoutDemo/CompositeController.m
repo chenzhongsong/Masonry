@@ -67,6 +67,8 @@
 }
 
 - (void)onTap {
+    //http://www.v2ex.com/t/229205
+    
     UIView *lastView = self.view;
     
     if (self.isNormal) {
@@ -78,6 +80,7 @@
             
             [self.view bringSubviewToFront:itemView];
             lastView = itemView;
+//            NSLog(@"%ld",(long)i);
         }
     } else {
         for (NSInteger i = 0; i < self.viewArray.count; ++i) {
