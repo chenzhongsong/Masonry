@@ -31,6 +31,7 @@
 		265B34501D5B1EB3001C58D7 /* MasRemakeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 265B344F1D5B1EB3001C58D7 /* MasRemakeViewController.m */; };
 		265B34531D5B2A02001C58D7 /* TotalUpdateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 265B34521D5B2A02001C58D7 /* TotalUpdateController.m */; };
 		265B34561D5B362C001C58D7 /* CompositeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 265B34551D5B362C001C58D7 /* CompositeController.m */; };
+		269954D11D5C2B05008C216A /* AspectFitController.m in Sources */ = {isa = PBXBuildFile; fileRef = 269954D01D5C2B05008C216A /* AspectFitController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,6 +85,8 @@
 		265B34521D5B2A02001C58D7 /* TotalUpdateController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TotalUpdateController.m; sourceTree = "<group>"; };
 		265B34541D5B362C001C58D7 /* CompositeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompositeController.h; sourceTree = "<group>"; };
 		265B34551D5B362C001C58D7 /* CompositeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompositeController.m; sourceTree = "<group>"; };
+		269954CF1D5C2B05008C216A /* AspectFitController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AspectFitController.h; sourceTree = "<group>"; };
+		269954D01D5C2B05008C216A /* AspectFitController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AspectFitController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +139,8 @@
 				265B34521D5B2A02001C58D7 /* TotalUpdateController.m */,
 				265B34541D5B362C001C58D7 /* CompositeController.h */,
 				265B34551D5B362C001C58D7 /* CompositeController.m */,
+				269954CF1D5C2B05008C216A /* AspectFitController.h */,
+				269954D01D5C2B05008C216A /* AspectFitController.m */,
 				265B340B1D59ABB4001C58D7 /* Main.storyboard */,
 				265B340E1D59ABB4001C58D7 /* Assets.xcassets */,
 				265B34101D59ABB4001C58D7 /* LaunchScreen.storyboard */,
@@ -265,6 +270,7 @@
 				265B34411D59CA26001C58D7 /* ViewController+MASAdditions.m in Sources */,
 				265B343B1D59CA26001C58D7 /* MASLayoutConstraint.m in Sources */,
 				265B343E1D59CA26001C58D7 /* NSArray+MASAdditions.m in Sources */,
+				269954D11D5C2B05008C216A /* AspectFitController.m in Sources */,
 				265B343D1D59CA26001C58D7 /* MASViewConstraint.m in Sources */,
 				265B343C1D59CA26001C58D7 /* MASViewAttribute.m in Sources */,
 				265B34501D5B1EB3001C58D7 /* MasRemakeViewController.m in Sources */,

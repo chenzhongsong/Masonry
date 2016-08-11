@@ -53,5 +53,8 @@
     [self.navigationController pushViewController:[NSClassFromString(@"CompositeController") new] animated:YES];
 }
 
+- (IBAction)masMutipliedByLayout:(id)sender {
+    [self.navigationController pushViewController:[NSClassFromString(@"AspectFitController") new] animated:YES];
+}
 
 @end
