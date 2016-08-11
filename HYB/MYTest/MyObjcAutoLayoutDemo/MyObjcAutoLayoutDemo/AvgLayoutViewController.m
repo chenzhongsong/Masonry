@@ -57,4 +57,10 @@
     [self.navigationController pushViewController:[NSClassFromString(@"AspectFitController") new] animated:YES];
 }
 
+- (IBAction)masTableViewCellLayout:(id)sender {
+    
+    [self.navigationController pushViewController:[NSClassFromString(@"TableViewController") new] animated:YES];
+}
+
+
 @end

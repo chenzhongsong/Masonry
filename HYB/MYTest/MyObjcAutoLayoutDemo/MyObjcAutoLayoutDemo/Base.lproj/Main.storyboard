@@ -189,9 +189,37 @@
                                     <action selector="masMutipliedByLayout:" destination="HSG-AP-QTr" eventType="touchUpInside" id="iRL-8i-8Qf"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gvV-F4-kJX">
+                                <rect key="frame" x="8" y="578" width="122.5" height="80"/>
+                                <color key="backgroundColor" red="1" green="0.35989727770000002" blue="0.32556323250000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="XmI-sY-d1S"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="mas Cell布局"/>
+                                <connections>
+                                    <action selector="masTableViewCellLayout:" destination="HSG-AP-QTr" eventType="touchUpInside" id="5zm-KR-4n8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ekM-hj-vyw">
+                                <rect key="frame" x="283.5" y="578" width="122.5" height="80"/>
+                                <color key="backgroundColor" red="1" green="0.35989727770000002" blue="0.32556323250000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="mas Cell布局"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XkL-iw-YQn">
+                                <rect key="frame" x="145.5" y="578" width="123" height="80"/>
+                                <color key="backgroundColor" red="1" green="0.35989727770000002" blue="0.32556323250000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="Button"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="ekM-hj-vyw" firstAttribute="leading" secondItem="XkL-iw-YQn" secondAttribute="trailing" constant="15" id="39H-Ky-FO9"/>
+                            <constraint firstItem="XkL-iw-YQn" firstAttribute="leading" secondItem="gvV-F4-kJX" secondAttribute="trailing" constant="15" id="3k8-lC-lAz"/>
+                            <constraint firstItem="XkL-iw-YQn" firstAttribute="width" secondItem="gvV-F4-kJX" secondAttribute="width" id="5jE-cK-wEN"/>
+                            <constraint firstItem="gvV-F4-kJX" firstAttribute="leading" secondItem="DMw-8i-waN" secondAttribute="leading" constant="8" id="5uk-P0-gfy"/>
                             <constraint firstItem="bUL-54-izz" firstAttribute="top" secondItem="DMi-yA-ak2" secondAttribute="top" id="853-ba-bjb"/>
                             <constraint firstAttribute="trailing" secondItem="OoW-jk-Hbh" secondAttribute="trailing" constant="20" id="86o-Mg-UL8"/>
                             <constraint firstItem="qca-9I-ITE" firstAttribute="height" secondItem="OoW-jk-Hbh" secondAttribute="height" id="8QW-Cy-pgy"/>
@@ -200,8 +228,11 @@
                             <constraint firstAttribute="trailing" secondItem="vFP-w0-HEJ" secondAttribute="trailing" constant="8" id="EA2-0j-LhO"/>
                             <constraint firstItem="bUL-54-izz" firstAttribute="leading" secondItem="DMi-yA-ak2" secondAttribute="trailing" constant="20" id="EhO-lu-M6d"/>
                             <constraint firstItem="qca-9I-ITE" firstAttribute="leading" secondItem="OoW-jk-Hbh" secondAttribute="leading" id="K66-NI-pC9"/>
+                            <constraint firstItem="gvV-F4-kJX" firstAttribute="top" secondItem="0kz-S6-Bln" secondAttribute="bottom" constant="14" id="M3h-8N-SW7"/>
+                            <constraint firstItem="ekM-hj-vyw" firstAttribute="height" secondItem="gvV-F4-kJX" secondAttribute="height" id="MIG-BU-fCA"/>
                             <constraint firstItem="OoW-jk-Hbh" firstAttribute="leading" secondItem="0kz-S6-Bln" secondAttribute="trailing" constant="10" id="MnX-J2-MUL"/>
                             <constraint firstItem="L97-Dc-rEZ" firstAttribute="top" secondItem="DMi-yA-ak2" secondAttribute="bottom" constant="30" id="O0S-ze-cC4"/>
+                            <constraint firstItem="XkL-iw-YQn" firstAttribute="height" secondItem="gvV-F4-kJX" secondAttribute="height" id="QGM-P1-10i"/>
                             <constraint firstItem="vFP-w0-HEJ" firstAttribute="top" secondItem="L97-Dc-rEZ" secondAttribute="top" id="QIE-tv-oYB"/>
                             <constraint firstItem="L97-Dc-rEZ" firstAttribute="leading" secondItem="DMw-8i-waN" secondAttribute="leading" constant="8" id="QyK-Mc-0Qo"/>
                             <constraint firstItem="jdU-FC-Y2n" firstAttribute="leading" secondItem="L97-Dc-rEZ" secondAttribute="trailing" constant="20" id="W7x-l4-vT6"/>
@@ -211,6 +242,7 @@
                             <constraint firstItem="0kz-S6-Bln" firstAttribute="bottom" secondItem="qca-9I-ITE" secondAttribute="bottom" constant="20" id="aN6-pa-XbL"/>
                             <constraint firstItem="jdU-FC-Y2n" firstAttribute="width" secondItem="L97-Dc-rEZ" secondAttribute="width" id="dzq-RE-dgx"/>
                             <constraint firstItem="OoW-jk-Hbh" firstAttribute="top" secondItem="0kz-S6-Bln" secondAttribute="top" constant="20" id="e2F-mi-j5J"/>
+                            <constraint firstItem="XkL-iw-YQn" firstAttribute="top" secondItem="gvV-F4-kJX" secondAttribute="top" id="fAe-BD-nzw"/>
                             <constraint firstItem="jdU-FC-Y2n" firstAttribute="top" secondItem="L97-Dc-rEZ" secondAttribute="top" id="k9J-pP-fgA"/>
                             <constraint firstItem="0kz-S6-Bln" firstAttribute="leading" secondItem="DMw-8i-waN" secondAttribute="leading" constant="8" id="kcD-uw-mbG"/>
                             <constraint firstItem="qca-9I-ITE" firstAttribute="top" secondItem="OoW-jk-Hbh" secondAttribute="bottom" constant="10" id="lFL-Ki-ju8"/>
@@ -218,8 +250,11 @@
                             <constraint firstItem="jdU-FC-Y2n" firstAttribute="height" secondItem="L97-Dc-rEZ" secondAttribute="height" id="mNo-Wy-SQq"/>
                             <constraint firstItem="0kz-S6-Bln" firstAttribute="top" secondItem="jdU-FC-Y2n" secondAttribute="bottom" constant="40" id="qkb-22-TSc"/>
                             <constraint firstItem="bUL-54-izz" firstAttribute="height" secondItem="DMi-yA-ak2" secondAttribute="height" id="r64-aw-zCD"/>
+                            <constraint firstAttribute="trailing" secondItem="ekM-hj-vyw" secondAttribute="trailing" constant="8" id="sJA-9A-xCd"/>
                             <constraint firstItem="vFP-w0-HEJ" firstAttribute="height" secondItem="L97-Dc-rEZ" secondAttribute="height" id="vyh-5P-Tza"/>
                             <constraint firstAttribute="trailing" secondItem="bUL-54-izz" secondAttribute="trailing" constant="8" id="wLe-bp-giH"/>
+                            <constraint firstItem="ekM-hj-vyw" firstAttribute="width" secondItem="gvV-F4-kJX" secondAttribute="width" id="xaC-WP-xfP"/>
+                            <constraint firstItem="ekM-hj-vyw" firstAttribute="top" secondItem="gvV-F4-kJX" secondAttribute="top" id="yQH-cc-UD5"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="平分布局" id="s66-ka-Dhx"/>

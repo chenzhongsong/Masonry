@@ -32,6 +32,9 @@
 		265B34531D5B2A02001C58D7 /* TotalUpdateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 265B34521D5B2A02001C58D7 /* TotalUpdateController.m */; };
 		265B34561D5B362C001C58D7 /* CompositeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 265B34551D5B362C001C58D7 /* CompositeController.m */; };
 		269954D11D5C2B05008C216A /* AspectFitController.m in Sources */ = {isa = PBXBuildFile; fileRef = 269954D01D5C2B05008C216A /* AspectFitController.m */; };
+		9AF79EC11D5CD1AD00194E18 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF79EC01D5CD1AD00194E18 /* TableViewController.m */; };
+		9AF79EC41D5CD31A00194E18 /* TestCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF79EC31D5CD31A00194E18 /* TestCell.m */; };
+		9AF79EC71D5CD32F00194E18 /* TestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF79EC61D5CD32F00194E18 /* TestModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -87,6 +90,12 @@
 		265B34551D5B362C001C58D7 /* CompositeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompositeController.m; sourceTree = "<group>"; };
 		269954CF1D5C2B05008C216A /* AspectFitController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AspectFitController.h; sourceTree = "<group>"; };
 		269954D01D5C2B05008C216A /* AspectFitController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AspectFitController.m; sourceTree = "<group>"; };
+		9AF79EBF1D5CD1AD00194E18 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		9AF79EC01D5CD1AD00194E18 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		9AF79EC21D5CD31A00194E18 /* TestCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCell.h; sourceTree = "<group>"; };
+		9AF79EC31D5CD31A00194E18 /* TestCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCell.m; sourceTree = "<group>"; };
+		9AF79EC51D5CD32F00194E18 /* TestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestModel.h; sourceTree = "<group>"; };
+		9AF79EC61D5CD32F00194E18 /* TestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +150,12 @@
 				265B34551D5B362C001C58D7 /* CompositeController.m */,
 				269954CF1D5C2B05008C216A /* AspectFitController.h */,
 				269954D01D5C2B05008C216A /* AspectFitController.m */,
+				9AF79EBF1D5CD1AD00194E18 /* TableViewController.h */,
+				9AF79EC01D5CD1AD00194E18 /* TableViewController.m */,
+				9AF79EC21D5CD31A00194E18 /* TestCell.h */,
+				9AF79EC31D5CD31A00194E18 /* TestCell.m */,
+				9AF79EC51D5CD32F00194E18 /* TestModel.h */,
+				9AF79EC61D5CD32F00194E18 /* TestModel.m */,
 				265B340B1D59ABB4001C58D7 /* Main.storyboard */,
 				265B340E1D59ABB4001C58D7 /* Assets.xcassets */,
 				265B34101D59ABB4001C58D7 /* LaunchScreen.storyboard */,
@@ -261,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AF79EC41D5CD31A00194E18 /* TestCell.m in Sources */,
 				265B343A1D59CA26001C58D7 /* MASConstraintMaker.m in Sources */,
 				265B34531D5B2A02001C58D7 /* TotalUpdateController.m in Sources */,
 				265B340A1D59ABB4001C58D7 /* ViewController.m in Sources */,
@@ -272,8 +288,10 @@
 				265B343E1D59CA26001C58D7 /* NSArray+MASAdditions.m in Sources */,
 				269954D11D5C2B05008C216A /* AspectFitController.m in Sources */,
 				265B343D1D59CA26001C58D7 /* MASViewConstraint.m in Sources */,
+				9AF79EC11D5CD1AD00194E18 /* TableViewController.m in Sources */,
 				265B343C1D59CA26001C58D7 /* MASViewAttribute.m in Sources */,
 				265B34501D5B1EB3001C58D7 /* MasRemakeViewController.m in Sources */,
+				9AF79EC71D5CD32F00194E18 /* TestModel.m in Sources */,
 				265B34401D59CA26001C58D7 /* View+MASAdditions.m in Sources */,
 				265B341D1D59C921001C58D7 /* CodeAutolayoutViewController.m in Sources */,
 				265B34041D59ABB4001C58D7 /* main.m in Sources */,
