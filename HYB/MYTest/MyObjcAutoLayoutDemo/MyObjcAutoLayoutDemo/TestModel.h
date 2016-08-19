@@ -11,4 +11,5 @@
 @interface TestModel : NSObject
 @property (nonatomic, copy) NSString *titleStr;
 @property (nonatomic, copy) NSString *subTitleStr;
+@property (nonatomic, assign) BOOL isExpanded;
 @end

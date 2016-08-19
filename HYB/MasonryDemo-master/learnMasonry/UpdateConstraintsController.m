@@ -22,7 +22,7 @@
   
   
   [self configUI];
-  return;
+  //return;
   
   self.growingButton = [UIButton buttonWithType:UIButtonTypeSystem];
   [self.growingButton setTitle:@"点我放大" forState:UIControlStateNormal];

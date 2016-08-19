@@ -6,7 +6,7 @@
 //  Copyright © 2015年 huangyibiao. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+//#import <UIKit/UIKit.h>
 #import "HYBBaseController.h"
 
 @interface BasicController : HYBBaseController

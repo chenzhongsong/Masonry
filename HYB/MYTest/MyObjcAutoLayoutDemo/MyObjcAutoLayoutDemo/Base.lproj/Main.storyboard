@@ -201,17 +201,17 @@
                                     <action selector="masTableViewCellLayout:" destination="HSG-AP-QTr" eventType="touchUpInside" id="5zm-KR-4n8"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ekM-hj-vyw">
-                                <rect key="frame" x="283.5" y="578" width="122.5" height="80"/>
-                                <color key="backgroundColor" red="1" green="0.35989727770000002" blue="0.32556323250000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <state key="normal" title="mas Cell布局"/>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XkL-iw-YQn">
                                 <rect key="frame" x="145.5" y="578" width="123" height="80"/>
                                 <color key="backgroundColor" red="1" green="0.35989727770000002" blue="0.32556323250000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <state key="normal" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ekM-hj-vyw">
+                                <rect key="frame" x="283" y="578" width="122.5" height="80"/>
+                                <color key="backgroundColor" red="1" green="0.35989727770000002" blue="0.32556323250000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="mas Cell布局"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>

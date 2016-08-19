@@ -53,7 +53,7 @@
 - (void)masTableViewCellLayout {
     
     self.tableView = [[UITableView alloc] init];
-    self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+    self.tableView.separatorStyle = UITableViewCellSeparatorStyleSingleLine;
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
     [self.view addSubview:self.tableView];
@@ -65,7 +65,7 @@
     for (int i=0; i<10; i++) {
         TestModel *model = [[TestModel alloc] init];
         model.titleStr = @"测试标题，可能很长很长，反正随便写着先吧！";
-        model.subTitleStr = @"描述内容通常都是很长很长的，描述内容通常都是很长很长的，描述内容通常都是很长很长的，描述内容通常都是很长很长的，描述内容通常都是很长很长的，描述内容通常都是很长很长的，描述内容通常都是很长很长的，描述内容通常都是很长很长的，描述内容通常都是很长很长的，描述内容通常都是很长很长的，描述内容通常都是很长很长的，描述内容通常都是很长很长的，描述内容通常都是很长很长的，";
+        model.subTitleStr = @"描述内容通常都是很长很长的，描述内容通常都是很长很长的，描述内容通常都是很长很长的，描述内容通常都是很长很长的，描述内容通常都是很长很长的，描述内容通常都是很长很长的，描述内容通常都是很长很长的，描述内容通常都是很长很长的，描述内容通常都是很长很长的，描述内容通常都是很长很长的，描述内容通常都是很长很长的，描述内容通常都是很长很长的，描述内容通常都是很长很长的.";
         [self.dataArray addObject:model];
     }
     [self.tableView reloadData];
@@ -82,6 +82,12 @@
     if (!cell) {
         cell = [[TestCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier];
     }
+    
+    cell.indexPath = indexPath;
+    cell.block = ^(NSIndexPath *path) {
+        [tableView reloadRowsAtIndexPaths:@[path] withRowAnimation:UITableViewRowAnimationFade];
+    };
+    
     TestModel *model = [self.dataArray objectAtIndex:indexPath.row];
     [cell configCellWithModel:model];
     

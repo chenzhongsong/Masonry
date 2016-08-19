@@ -9,11 +9,16 @@
 #import <UIKit/UIKit.h>
 #import "TestModel.h"
 
+typedef void(^testBlock)(NSIndexPath *indexPath);
+
 @interface TestCell : UITableViewCell
 
 @property (nonatomic, strong) UIImageView *imgView;
 @property (nonatomic, strong) UILabel *titleLab;
 @property (nonatomic, strong) UILabel *subTitleLab;
+@property (nonatomic, strong) TestModel *model;
+@property (nonatomic, copy) testBlock block;
+@property (nonatomic, strong) NSIndexPath *indexPath;
 
 - (void)configCellWithModel:(TestModel *)model;
 + (CGFloat)heightForCellWithModel:(TestModel *)model;
