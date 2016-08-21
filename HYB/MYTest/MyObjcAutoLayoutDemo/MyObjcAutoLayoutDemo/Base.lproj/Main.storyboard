@@ -128,7 +128,8 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bUL-54-izz">
                                 <rect key="frame" x="217" y="84" width="189" height="79.5"/>
                                 <color key="backgroundColor" red="0.30892510649999999" green="1" blue="0.27888142500000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="mas基础布局"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="mas基础用法布局"/>
                                 <connections>
                                     <action selector="masBaseUse:" destination="HSG-AP-QTr" eventType="touchUpInside" id="5k9-Q9-xBO"/>
                                 </connections>
@@ -139,8 +140,8 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="80" id="EUI-tV-AKg"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                <state key="normal" title="mas动画更新"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <state key="normal" title="mas动画更新约束"/>
                                 <connections>
                                     <action selector="masBaseLayout:" destination="HSG-AP-QTr" eventType="touchUpInside" id="Kql-h5-nNt"/>
                                 </connections>
@@ -148,8 +149,8 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jdU-FC-Y2n">
                                 <rect key="frame" x="147" y="194" width="119" height="80"/>
                                 <color key="backgroundColor" red="1" green="0.35546599550000002" blue="0.33553066939999998" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <state key="normal" title="mas remake更新"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <state key="normal" title="mas remake更新约束"/>
                                 <connections>
                                     <action selector="masRemakeLayout:" destination="HSG-AP-QTr" eventType="touchUpInside" id="MEc-9s-iJM"/>
                                 </connections>
@@ -157,8 +158,8 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vFP-w0-HEJ">
                                 <rect key="frame" x="286" y="194" width="120" height="80"/>
                                 <color key="backgroundColor" red="1" green="0.35546599550000002" blue="0.33553066939999998" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <state key="normal" title="mas整体动画更新"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <state key="normal" title="mas整体动画更新约束"/>
                                 <connections>
                                     <action selector="masEntiretyAnimateLayout:" destination="HSG-AP-QTr" eventType="touchUpInside" id="Pb3-gj-zqk"/>
                                 </connections>
@@ -167,7 +168,7 @@
                                 <rect key="frame" x="268" y="334" width="126" height="100"/>
                                 <color key="backgroundColor" red="1" green="0.35546599550000002" blue="0.33553066939999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <state key="normal" title="复合约束"/>
+                                <state key="normal" title="mas复合约束"/>
                                 <connections>
                                     <action selector="masCompositeLayout:" destination="HSG-AP-QTr" eventType="touchUpInside" id="37a-8f-aMg"/>
                                 </connections>
@@ -211,7 +212,7 @@
                                 <rect key="frame" x="283" y="578" width="122.5" height="80"/>
                                 <color key="backgroundColor" red="1" green="0.35989727770000002" blue="0.32556323250000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <state key="normal" title="mas Cell布局"/>
+                                <state key="normal" title="Button"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>

@@ -138,24 +138,13 @@
 				265B341C1D59C921001C58D7 /* CodeAutolayoutViewController.m */,
 				265B34481D5B1BE3001C58D7 /* AvgLayoutViewController.h */,
 				265B34491D5B1BE3001C58D7 /* AvgLayoutViewController.m */,
-				265B34421D5ADAE5001C58D7 /* MasonryBaseViewController.h */,
-				265B34431D5ADAE5001C58D7 /* MasonryBaseViewController.m */,
-				265B344B1D5B1DE3001C58D7 /* MasAnimateLayoutViewController.h */,
-				265B344C1D5B1DE3001C58D7 /* MasAnimateLayoutViewController.m */,
-				265B344E1D5B1EB3001C58D7 /* MasRemakeViewController.h */,
-				265B344F1D5B1EB3001C58D7 /* MasRemakeViewController.m */,
-				265B34511D5B2A02001C58D7 /* TotalUpdateController.h */,
-				265B34521D5B2A02001C58D7 /* TotalUpdateController.m */,
-				265B34541D5B362C001C58D7 /* CompositeController.h */,
-				265B34551D5B362C001C58D7 /* CompositeController.m */,
-				269954CF1D5C2B05008C216A /* AspectFitController.h */,
-				269954D01D5C2B05008C216A /* AspectFitController.m */,
-				9AF79EBF1D5CD1AD00194E18 /* TableViewController.h */,
-				9AF79EC01D5CD1AD00194E18 /* TableViewController.m */,
-				9AF79EC21D5CD31A00194E18 /* TestCell.h */,
-				9AF79EC31D5CD31A00194E18 /* TestCell.m */,
-				9AF79EC51D5CD32F00194E18 /* TestModel.h */,
-				9AF79EC61D5CD32F00194E18 /* TestModel.m */,
+				9AC910431D68482200790365 /* Mas 基础用法 */,
+				9AC910441D6848AF00790365 /* Mas 动画更新约束 */,
+				9AC910451D6848D700790365 /* Mas remake更新约束 */,
+				9AC910461D6848F500790365 /* Mas 整体动画更新约束 */,
+				9AC910471D68490C00790365 /* Mas 复合约束 */,
+				9AC910481D68492700790365 /* Mas MutipliedBy */,
+				9AC910491D68495D00790365 /* Mas tableViewCell布局约束 */,
 				265B340B1D59ABB4001C58D7 /* Main.storyboard */,
 				265B340E1D59ABB4001C58D7 /* Assets.xcassets */,
 				265B34101D59ABB4001C58D7 /* LaunchScreen.storyboard */,
@@ -203,6 +192,73 @@
 				265B34371D59CA26001C58D7 /* ViewController+MASAdditions.m */,
 			);
 			path = Masonry;
+			sourceTree = "<group>";
+		};
+		9AC910431D68482200790365 /* Mas 基础用法 */ = {
+			isa = PBXGroup;
+			children = (
+				265B34421D5ADAE5001C58D7 /* MasonryBaseViewController.h */,
+				265B34431D5ADAE5001C58D7 /* MasonryBaseViewController.m */,
+			);
+			name = "Mas 基础用法";
+			sourceTree = "<group>";
+		};
+		9AC910441D6848AF00790365 /* Mas 动画更新约束 */ = {
+			isa = PBXGroup;
+			children = (
+				265B344B1D5B1DE3001C58D7 /* MasAnimateLayoutViewController.h */,
+				265B344C1D5B1DE3001C58D7 /* MasAnimateLayoutViewController.m */,
+			);
+			name = "Mas 动画更新约束";
+			sourceTree = "<group>";
+		};
+		9AC910451D6848D700790365 /* Mas remake更新约束 */ = {
+			isa = PBXGroup;
+			children = (
+				265B344E1D5B1EB3001C58D7 /* MasRemakeViewController.h */,
+				265B344F1D5B1EB3001C58D7 /* MasRemakeViewController.m */,
+			);
+			name = "Mas remake更新约束";
+			sourceTree = "<group>";
+		};
+		9AC910461D6848F500790365 /* Mas 整体动画更新约束 */ = {
+			isa = PBXGroup;
+			children = (
+				265B34511D5B2A02001C58D7 /* TotalUpdateController.h */,
+				265B34521D5B2A02001C58D7 /* TotalUpdateController.m */,
+			);
+			name = "Mas 整体动画更新约束";
+			sourceTree = "<group>";
+		};
+		9AC910471D68490C00790365 /* Mas 复合约束 */ = {
+			isa = PBXGroup;
+			children = (
+				265B34541D5B362C001C58D7 /* CompositeController.h */,
+				265B34551D5B362C001C58D7 /* CompositeController.m */,
+			);
+			name = "Mas 复合约束";
+			sourceTree = "<group>";
+		};
+		9AC910481D68492700790365 /* Mas MutipliedBy */ = {
+			isa = PBXGroup;
+			children = (
+				269954CF1D5C2B05008C216A /* AspectFitController.h */,
+				269954D01D5C2B05008C216A /* AspectFitController.m */,
+			);
+			name = "Mas MutipliedBy";
+			sourceTree = "<group>";
+		};
+		9AC910491D68495D00790365 /* Mas tableViewCell布局约束 */ = {
+			isa = PBXGroup;
+			children = (
+				9AF79EBF1D5CD1AD00194E18 /* TableViewController.h */,
+				9AF79EC01D5CD1AD00194E18 /* TableViewController.m */,
+				9AF79EC21D5CD31A00194E18 /* TestCell.h */,
+				9AF79EC31D5CD31A00194E18 /* TestCell.m */,
+				9AF79EC51D5CD32F00194E18 /* TestModel.h */,
+				9AF79EC61D5CD32F00194E18 /* TestModel.m */,
+			);
+			name = "Mas tableViewCell布局约束";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
