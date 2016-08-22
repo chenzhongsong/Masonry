@@ -44,7 +44,9 @@
     self.descLabel = [[UILabel alloc] init];
     [self.contentView addSubview:self.descLabel];
     self.descLabel.numberOfLines = 0;
-    [self.descLabel sizeToFit];
+      self.descLabel.font = [UIFont systemFontOfSize:14];
+      self.descLabel.backgroundColor = [UIColor redColor];
+      [self.descLabel sizeToFit];
     [self.descLabel mas_makeConstraints:^(MASConstraintMaker *make) {
       make.left.mas_equalTo(15);
       make.right.mas_equalTo(-15);
@@ -82,7 +84,7 @@
 }
 
 - (void)configCellWithModel:(HYBNewsModel *)model {
-  NSLog(@"配置数据");
+  //NSLog(@"配置数据");
   self.mainLabel.text = model.title;
   self.descLabel.text = model.desc;
   

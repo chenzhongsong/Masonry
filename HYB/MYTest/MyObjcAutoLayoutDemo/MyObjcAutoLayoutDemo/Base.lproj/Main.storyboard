@@ -206,7 +206,10 @@
                                 <rect key="frame" x="145.5" y="578" width="123" height="80"/>
                                 <color key="backgroundColor" red="1" green="0.35989727770000002" blue="0.32556323250000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="AutoCellHeight"/>
+                                <connections>
+                                    <action selector="masCalculateCellHeight:" destination="HSG-AP-QTr" eventType="touchUpInside" id="hNz-5O-Jfg"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ekM-hj-vyw">
                                 <rect key="frame" x="283" y="578" width="122.5" height="80"/>

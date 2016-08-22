@@ -32,6 +32,11 @@
 		265B34531D5B2A02001C58D7 /* TotalUpdateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 265B34521D5B2A02001C58D7 /* TotalUpdateController.m */; };
 		265B34561D5B362C001C58D7 /* CompositeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 265B34551D5B362C001C58D7 /* CompositeController.m */; };
 		269954D11D5C2B05008C216A /* AspectFitController.m in Sources */ = {isa = PBXBuildFile; fileRef = 269954D01D5C2B05008C216A /* AspectFitController.m */; };
+		26AF945A1D6ACEFD0033DCBB /* CalculateCellHeightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26AF94591D6ACEFD0033DCBB /* CalculateCellHeightViewController.m */; };
+		26AF94601D6AD0E80033DCBB /* UITableView+HYBCacheHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 26AF945D1D6AD0E80033DCBB /* UITableView+HYBCacheHeight.m */; };
+		26AF94611D6AD0E80033DCBB /* UITableViewCell+HYBMasonryAutoCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 26AF945F1D6AD0E80033DCBB /* UITableViewCell+HYBMasonryAutoCellHeight.m */; };
+		26AF94641D6AD2EF0033DCBB /* CalculateHeightCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 26AF94631D6AD2EF0033DCBB /* CalculateHeightCell.m */; };
+		26AF94671D6AD31C0033DCBB /* CalculateCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 26AF94661D6AD31C0033DCBB /* CalculateCellModel.m */; };
 		9AF79EC11D5CD1AD00194E18 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF79EC01D5CD1AD00194E18 /* TableViewController.m */; };
 		9AF79EC41D5CD31A00194E18 /* TestCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF79EC31D5CD31A00194E18 /* TestCell.m */; };
 		9AF79EC71D5CD32F00194E18 /* TestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF79EC61D5CD32F00194E18 /* TestModel.m */; };
@@ -90,6 +95,16 @@
 		265B34551D5B362C001C58D7 /* CompositeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompositeController.m; sourceTree = "<group>"; };
 		269954CF1D5C2B05008C216A /* AspectFitController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AspectFitController.h; sourceTree = "<group>"; };
 		269954D01D5C2B05008C216A /* AspectFitController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AspectFitController.m; sourceTree = "<group>"; };
+		26AF94581D6ACEFD0033DCBB /* CalculateCellHeightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculateCellHeightViewController.h; sourceTree = "<group>"; };
+		26AF94591D6ACEFD0033DCBB /* CalculateCellHeightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculateCellHeightViewController.m; sourceTree = "<group>"; };
+		26AF945C1D6AD0E80033DCBB /* UITableView+HYBCacheHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+HYBCacheHeight.h"; sourceTree = "<group>"; };
+		26AF945D1D6AD0E80033DCBB /* UITableView+HYBCacheHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+HYBCacheHeight.m"; sourceTree = "<group>"; };
+		26AF945E1D6AD0E80033DCBB /* UITableViewCell+HYBMasonryAutoCellHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+HYBMasonryAutoCellHeight.h"; sourceTree = "<group>"; };
+		26AF945F1D6AD0E80033DCBB /* UITableViewCell+HYBMasonryAutoCellHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+HYBMasonryAutoCellHeight.m"; sourceTree = "<group>"; };
+		26AF94621D6AD2EF0033DCBB /* CalculateHeightCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculateHeightCell.h; sourceTree = "<group>"; };
+		26AF94631D6AD2EF0033DCBB /* CalculateHeightCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculateHeightCell.m; sourceTree = "<group>"; };
+		26AF94651D6AD31C0033DCBB /* CalculateCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculateCellModel.h; sourceTree = "<group>"; };
+		26AF94661D6AD31C0033DCBB /* CalculateCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculateCellModel.m; sourceTree = "<group>"; };
 		9AF79EBF1D5CD1AD00194E18 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		9AF79EC01D5CD1AD00194E18 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		9AF79EC21D5CD31A00194E18 /* TestCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCell.h; sourceTree = "<group>"; };
@@ -112,6 +127,7 @@
 		265B33F61D59ABB4001C58D7 = {
 			isa = PBXGroup;
 			children = (
+				26AF945B1D6AD0E80033DCBB /* HYBMasonryAutoCellHeight */,
 				265B341E1D59CA26001C58D7 /* Masonry */,
 				265B34011D59ABB4001C58D7 /* MyObjcAutoLayoutDemo */,
 				265B34001D59ABB4001C58D7 /* Products */,
@@ -138,6 +154,7 @@
 				265B341C1D59C921001C58D7 /* CodeAutolayoutViewController.m */,
 				265B34481D5B1BE3001C58D7 /* AvgLayoutViewController.h */,
 				265B34491D5B1BE3001C58D7 /* AvgLayoutViewController.m */,
+				26AF946A1D6AF06E0033DCBB /* Mas 计算Cell高度 */,
 				9AC910431D68482200790365 /* Mas 基础用法 */,
 				9AC910441D6848AF00790365 /* Mas 动画更新约束 */,
 				9AC910451D6848D700790365 /* Mas remake更新约束 */,
@@ -192,6 +209,30 @@
 				265B34371D59CA26001C58D7 /* ViewController+MASAdditions.m */,
 			);
 			path = Masonry;
+			sourceTree = "<group>";
+		};
+		26AF945B1D6AD0E80033DCBB /* HYBMasonryAutoCellHeight */ = {
+			isa = PBXGroup;
+			children = (
+				26AF945C1D6AD0E80033DCBB /* UITableView+HYBCacheHeight.h */,
+				26AF945D1D6AD0E80033DCBB /* UITableView+HYBCacheHeight.m */,
+				26AF945E1D6AD0E80033DCBB /* UITableViewCell+HYBMasonryAutoCellHeight.h */,
+				26AF945F1D6AD0E80033DCBB /* UITableViewCell+HYBMasonryAutoCellHeight.m */,
+			);
+			path = HYBMasonryAutoCellHeight;
+			sourceTree = "<group>";
+		};
+		26AF946A1D6AF06E0033DCBB /* Mas 计算Cell高度 */ = {
+			isa = PBXGroup;
+			children = (
+				26AF94581D6ACEFD0033DCBB /* CalculateCellHeightViewController.h */,
+				26AF94591D6ACEFD0033DCBB /* CalculateCellHeightViewController.m */,
+				26AF94621D6AD2EF0033DCBB /* CalculateHeightCell.h */,
+				26AF94631D6AD2EF0033DCBB /* CalculateHeightCell.m */,
+				26AF94651D6AD31C0033DCBB /* CalculateCellModel.h */,
+				26AF94661D6AD31C0033DCBB /* CalculateCellModel.m */,
+			);
+			name = "Mas 计算Cell高度";
 			sourceTree = "<group>";
 		};
 		9AC910431D68482200790365 /* Mas 基础用法 */ = {
@@ -339,12 +380,15 @@
 				265B34561D5B362C001C58D7 /* CompositeController.m in Sources */,
 				265B34071D59ABB4001C58D7 /* AppDelegate.m in Sources */,
 				265B34391D59CA26001C58D7 /* MASConstraint.m in Sources */,
+				26AF94601D6AD0E80033DCBB /* UITableView+HYBCacheHeight.m in Sources */,
 				265B34411D59CA26001C58D7 /* ViewController+MASAdditions.m in Sources */,
 				265B343B1D59CA26001C58D7 /* MASLayoutConstraint.m in Sources */,
 				265B343E1D59CA26001C58D7 /* NSArray+MASAdditions.m in Sources */,
+				26AF945A1D6ACEFD0033DCBB /* CalculateCellHeightViewController.m in Sources */,
 				269954D11D5C2B05008C216A /* AspectFitController.m in Sources */,
 				265B343D1D59CA26001C58D7 /* MASViewConstraint.m in Sources */,
 				9AF79EC11D5CD1AD00194E18 /* TableViewController.m in Sources */,
+				26AF94611D6AD0E80033DCBB /* UITableViewCell+HYBMasonryAutoCellHeight.m in Sources */,
 				265B343C1D59CA26001C58D7 /* MASViewAttribute.m in Sources */,
 				265B34501D5B1EB3001C58D7 /* MasRemakeViewController.m in Sources */,
 				9AF79EC71D5CD32F00194E18 /* TestModel.m in Sources */,
@@ -352,7 +396,9 @@
 				265B341D1D59C921001C58D7 /* CodeAutolayoutViewController.m in Sources */,
 				265B34041D59ABB4001C58D7 /* main.m in Sources */,
 				265B34381D59CA26001C58D7 /* MASCompositeConstraint.m in Sources */,
+				26AF94641D6AD2EF0033DCBB /* CalculateHeightCell.m in Sources */,
 				265B344D1D5B1DE3001C58D7 /* MasAnimateLayoutViewController.m in Sources */,
+				26AF94671D6AD31C0033DCBB /* CalculateCellModel.m in Sources */,
 				265B343F1D59CA26001C58D7 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				265B34441D5ADAE5001C58D7 /* MasonryBaseViewController.m in Sources */,
 				265B344A1D5B1BE3001C58D7 /* AvgLayoutViewController.m in Sources */,

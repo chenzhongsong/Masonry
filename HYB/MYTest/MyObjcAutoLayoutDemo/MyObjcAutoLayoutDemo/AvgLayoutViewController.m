@@ -62,5 +62,10 @@
     [self.navigationController pushViewController:[NSClassFromString(@"TableViewController") new] animated:YES];
 }
 
+- (IBAction)masCalculateCellHeight:(id)sender {
+    [self.navigationController pushViewController:[NSClassFromString(@"CalculateCellHeightViewController") new] animated:YES];
+}
+
+
 
 @end

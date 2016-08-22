@@ -41,7 +41,15 @@
     [self.growingButton addTarget:self action:@selector(onGrowButtonTaped:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:self.growingButton];
     self.isExpanded = NO;
-
+    
+    //不加这个在8上没效果 即- (void)updateViewConstraints 不执行 。 在9上没问题
+    [self.growingButton mas_remakeConstraints:^(MASConstraintMaker *make) {
+        make.top.left.mas_equalTo(10);
+        make.right.mas_equalTo(-10);
+        
+        make.bottom.mas_equalTo(-350);
+        
+    }];
 }
 
 - (void)onGrowButtonTaped:(UIButton *)btn {

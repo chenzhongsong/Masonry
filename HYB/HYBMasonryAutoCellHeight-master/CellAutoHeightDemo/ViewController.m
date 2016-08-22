@@ -41,8 +41,8 @@
   if (_dataSource == nil) {
     _dataSource = [[NSMutableArray alloc] init];
     
-    int titleTotalLength = (int)[[self titleAll] length];
-    int descTotalLength = (int)[[self descAll] length];
+    int titleTotalLength = (int)[[self titleAll] length];//98
+    int descTotalLength = (int)[[self descAll] length];//223
     for (NSUInteger i = 0; i < 40; ++i) {
       int titleLength = rand() % titleTotalLength + 15;
       if (titleLength > titleTotalLength - 1) {
@@ -55,6 +55,7 @@
       model.isExpand = YES;
       
       int descLength = rand() % descTotalLength + 20;
+        //NSLog(@"descLength:%d",descLength);
       if (descLength >= descTotalLength) {
         descLength = descTotalLength;
       }
